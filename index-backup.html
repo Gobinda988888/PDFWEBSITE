@@ -289,7 +289,7 @@
 
             <!-- Edit PDF Tools -->
             <div class="tools-category">
-                <h3 class="category-title" onclick="openEditModal()" style="cursor: pointer;">
+                <h3 class="category-title">
                     <i class="fas fa-edit"></i>
                     Edit PDF
                 </h3>
@@ -567,67 +567,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Edit PDF Modal -->
-    <div id="editPdfModal" class="modal-overlay">
-        <div class="modal-content edit-modal">
-            <div class="modal-header">
-                <h2><i class="fas fa-edit"></i> Edit PDF Tools</h2>
-                <button class="close-modal" onclick="closeEditModal()">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="edit-tools-grid">
-                    <div class="edit-tool-card" onclick="openTool('crop')">
-                        <div class="tool-icon">
-                            <i class="fas fa-crop"></i>
-                        </div>
-                        <h4>Crop PDF</h4>
-                        <p>Remove unwanted margins and adjust page size</p>
-                    </div>
-                    
-                    <div class="edit-tool-card" onclick="openTool('add-text')">
-                        <div class="tool-icon">
-                            <i class="fas fa-font"></i>
-                        </div>
-                        <h4>Add Text</h4>
-                        <p>Insert text, annotations, and comments</p>
-                    </div>
-                    
-                    <div class="edit-tool-card" onclick="openTool('remove-pages')">
-                        <div class="tool-icon">
-                            <i class="fas fa-trash-alt"></i>
-                        </div>
-                        <h4>Remove Pages</h4>
-                        <p>Delete unwanted pages from your PDF</p>
-                    </div>
-                    
-                    <div class="edit-tool-card" onclick="openTool('add-shapes')">
-                        <div class="tool-icon">
-                            <i class="fas fa-shapes"></i>
-                        </div>
-                        <h4>Add Shapes</h4>
-                        <p>Draw rectangles, circles, and lines</p>
-                    </div>
-                    
-                    <div class="edit-tool-card" onclick="openTool('highlight')">
-                        <div class="tool-icon">
-                            <i class="fas fa-highlighter"></i>
-                        </div>
-                        <h4>Highlight Text</h4>
-                        <p>Highlight important text and content</p>
-                    </div>
-                    
-                    <div class="edit-tool-card" onclick="openTool('signature')">
-                        <div class="tool-icon">
-                            <i class="fas fa-signature"></i>
-                        </div>
-                        <h4>Add Signature</h4>
-                        <p>Sign documents digitally</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- JavaScript -->
     <script src="script-new.js"></script>
